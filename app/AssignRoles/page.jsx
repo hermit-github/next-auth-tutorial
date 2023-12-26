@@ -1,9 +1,10 @@
 import React from 'react'
+import UserForm from '../(components)/UserForm'
 
 const Roles = () => {
   return (
-    <div>
-        <h1>Only Admins!</h1>
+    <div className="flex justify-center items-center">
+      <UserForm/>
     </div>
   )
 }

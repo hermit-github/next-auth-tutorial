@@ -1,9 +1,11 @@
 import React from 'react'
-import NavBar from './(components)/Common/Nav'
+import UserForm from './(components)/UserForm'
 
 const Home = () => {
   return (
-    <div className="">Home</div>
+    <div className="flex justify-center items-center">
+      Home
+    </div>
   )
 }
 
