@@ -1,9 +1,6 @@
-
-export default function handler(req,res){
-    if(req.method == 'GET'){
-        res.status(200).json({
-            success:true,
-            message:"Welcome"
-        })
-    }
+// pages/api/example.js
+import { NextResponse } from "next/server"
+export async function GET(request,response){
+    return NextResponse.json({message:"Hi"})
 }
+
